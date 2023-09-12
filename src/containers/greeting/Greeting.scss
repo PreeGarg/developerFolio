@@ -45,9 +45,17 @@
   line-height: 40px;
 }
 
+
+.greeting-image-div {
+  text-align: center; /* Center the content horizontally */
+}
+
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  border-radius: 50%; /* Make the image circular */
+  display: block; /* Remove any extra space below the image */
+  margin: 0 auto; /* Center the image horizontally */
 }
 
 .wave-emoji {
