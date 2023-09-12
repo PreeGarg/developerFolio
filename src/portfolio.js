@@ -21,10 +21,10 @@ const illustration = {
 
 const greeting = {
   username: "Preedhi Garg",
-  title: "Hi there, I am Preedhi",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  title: "Hi, I am Preedhi",
+  subTitle: 
+    "Result-driven graduate computer science student with full-stack software development experience seeking full-time roles. Proficient in agile processes, design, and test-driven development with a solid foundation in Math, Coding, and Logic"
+  ,
   resumeLink:
     "https://drive.google.com/file/d/1_jLtiXxd5e1NbsWo7VCBLf8h8f_SquuM/view?pli=1", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -45,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ A highly accomplished computer science professional with a stellar academic record, a diverse technical skillset, and a track record of optimizing software performance and efficiency in real-world settings"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ An adept software developer and technology enthusiast, known for transforming complex challenges into innovative solutions, improving system performance by 75%, and streamlining workflows for enhanced productivity."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ A results-driven computer scientist with a passion for excellence, combining top-tier education, extensive technical proficiencies, and a proven history of driving substantial improvements in software development and database optimization."
     )
   ],
 
@@ -60,6 +60,26 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -69,12 +89,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "REST",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "reactjs",
@@ -85,33 +109,25 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-list check"
+    },
+    {
+      skillName: "SaaS",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -122,23 +138,37 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Seattle University",
+      logo: require("./assets/images/SU.jpg"),
+      subHeader: "Master of Science in Computer Science,",
+      duration: "March 2022 - Present",
+      desc: "GPA: 4.00/4.00",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Merit Scholar",
+        "Sponsorship for GHC 2023"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Amity University, India",
+      logo: require("./assets/images/Amity.jpg"),
+      subHeader: "Master of Technology in Computer Science and Engineering,",
+      duration: "April 2013 - May 2015",
+      desc: "GPA: 4.00/4.00",
+      descBullets: [
+        "Gold Medalist",
+        "Merit Scholar"
+      ]
+    },
+    {
+      schoolName: "Maharshi Dayanand University, India",
+      logo: require("./assets/images/MDU.jpg"),
+      subHeader: "Bachelor of Technology in Computer Science and Engineering,",
+      duration: "April 2009 - May 2013",
+      desc: "GPA: 4.00/4.00",
+      descBullets: [
+        "Topper of the University Award",
+        "Best Student of the College Title"
+      ]
     }
   ]
 };
@@ -150,15 +180,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -170,29 +200,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineering Intern",
+      company: "Snapsheet",
+      companylogo: require("./assets/images/Snapsheet.jpg"),
+      date: "June 2023 – September 2023",
+      desc: "React, Ruby on Rails, MySQL",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Incorporated the ISO ClaimSearch Portal into the Snapsheet (Claim Management) Portal using React.js. It improved workflow by eliminating the need for window-switching hence increasing the adjuster’s productivity.",
+
+        "Developed the Slim Supplement Portal using Ruby and MySQL that facilitated effortless adjuster-vendor communication."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer",
+      company: "S&P Global",
+      companylogo: require("./assets/images/SPGlobal.jpg"),
+      date: "July 2015 – November 2021",
+      desc: "C#, .NET, SQL Server, JavaScript, REST",
+      descBullets: [
+        "Accountable for the design, TDD, code reviews, and feature enhancements using CI/CD and Agile methodology.",
+
+        "Streamlined and transformed ASMX service into RESTful APIs using C#.NET that boosted platform performance by 75%",
+
+        "Remodeled critical SQL queries, stored procedures, and scripts that reduced DB latency by 80%. Awarded for minimizing execution time from 18 min to 6 sec for a client case",
+
+        "Built efficient UI components using React.Js that improved rendering time by 20% compared to Knockout.Js",
+
+        "Revamped DB architecture that halved the server maintenance cost and turnaround time for processing 50M records",
+
+        "Demonstrated and documented SQL query optimization techniques across ∼10 teams to address DB slowness"
+      ]
     }
   ]
 };
@@ -208,29 +245,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS THAT HELPED ME GROW",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/GoGetter.jpg"),
+      projectName: "GoGetter",
+      projectDesc: "Teamed up with one partner to develop a Saas-based goal-tracking application using Node.js, MongoDB, and Angular. Live-launched application with Google-based user authentication, driven by Azure and Mongo Atlas Cloud.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://gogetterapp.azurewebsites.net/#/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ImageTransformation.jpg"),
+      projectName: "Image Transformation",
+      projectDesc: "Designed and developed REST API to process ∼12 image transformation operations under 6ms using Python and Flask.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "GitHub Link",
+          url: "https://github.com/PreeGarg/ImageTransformAPI"
         }
       ]
     }
@@ -248,50 +285,75 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Dean's Honor Roll For Graduate Students",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Notable accomplishment to have received a grade point average of 4.000 Winter 2023 quarter while carrying a full course load.",
+      image: require("./assets/images/DeanHonor.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1blNfnCX-3etJz1voaXzV5w6zC1ST90ar/view"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "S&P Ace Award",
+      subtitle: "Received 7 Ace awards in my total tenure of  years at S&P Global",
+      image: require("./assets/images/SPGlobal.jpg"),
+      footerLink: [
+        {name: "Award", url: ""}
+      ]
+    },
+    {
+      title: "Gold Medal",
+      subtitle: "Won Gold Medal for Excellent Performance in Academic and securing first position among 300 students.",
+      image: require("./assets/images/Amity.jpg"),
+      footerLink: [
+        {name: "Award", url: ""}
+      ]
+    },
+    {
+      title: "Best Student Award",
+      subtitle: "Won Best Student Award for excellent performance in academics as well as in cultural activities like Dancing, Debating, Volunteering. etc.",
+      image: require("./assets/images/MDU.jpg"),
+      footerLink: [
+        {name: "Award", url: ""}
+      ]
+    },
+    {
+      title: "AWS Essential Training for Developers",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed certification course for AWS.",
+      image: require("./assets/images/aws.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate",
+          url: "https://www.linkedin.com/learning/certificates/865d68cb07850dd438eff5eb66dedac116da43df717bd422c9e14222ff798171"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Java Object-Oriented Programming",
+      subtitle:
+        "Completed certification course for OOPs Programming.",
+      image: require("./assets/images/oops.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certificate",
+          url: "https://www.linkedin.com/learning/certificates/df64c1d650197fedff1f0123f184804077cb35abec2d35d7f6c7fe54eff42650"
+        }
+      ]
+    },
+    {
+      title: "Python Data Structures",
+      subtitle:
+        "Completed certification course for Python Data Structures.",
+      image: require("./assets/images/pythonDS.jpg"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.linkedin.com/learning/certificates/d53bbcc95d4403134f6cd7d4c5c7a46af7253a2bf128c45f2f865a91e1f704d9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BcVToLNEcQvqGYZWuLNAdwA%3D%3D"
         }
       ]
     }
@@ -302,22 +364,28 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Research Papers",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "For my Love for Research, I am proud of these research papers I have contributed to.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://link.springer.com/chapter/10.1007/978-981-10-0448-3_7",
+      title: "Searchless Fractal Image Compression Using Fast DCT and Real DCT",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Proposed novel methods to reduce the encoding time for searchless fractal image compression in DCT domain by curtailing the computational complexity of the discrete cosine transform (DCT) equations"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://link.springer.com/chapter/10.1007/978-81-322-2755-7_4",
+      title: "Adaptive Fractal Image Compression Based on Adaptive Thresholding in DCT Domain",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Variance of range and domain blocks were analyzed and only domain blocks under a threshold value were taken. Achieved 2 times faster encoding time than baseline algorithm with a higher compression ratio."
+    },
+    {
+      url: "https://www.semanticscholar.org/paper/Comparison-of-Emotion-Recognition-Models-in-Spoken-Garg-Sehgal/591275800afea83e62ebeca6d0a893d7c9a2d2ec",
+      title: "Comparison of Emotion Recognition Models in Spoken Dialogs",
+      description:
+        "Focused on comparing emotion recognition models on the basis of features extracted and classifiers used."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -339,7 +407,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -352,14 +420,14 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "425(504)-3953",
+  number: "(425) 504-3953",
   email_address: "gargpreedhi@gmail.com"
 };
 
@@ -367,7 +435,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
