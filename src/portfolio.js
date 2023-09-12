@@ -270,6 +270,38 @@ const bigProjects = {
           url: "https://github.com/PreeGarg/ImageTransformAPI"
         }
       ]
+    },
+    {
+      image: require("./assets/images/CodeSmellDetector.jpg"),
+      projectName: "CodeSmellDetector",
+      projectDesc: "Developed and implemented an automated code smell detection system, enhancing code quality and maintainability by identifying and addressing potential issues in uploaded code files using C++.",
+      footerLink: [
+        {
+          name: "GitHub Link",
+          url: "https://github.com/PreeGarg/CodeSmellDetector"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Scrabble.jpg"),
+      projectName: "Testing Scrabble",
+      projectDesc: "Led a comprehensive testing initiative for the Scrabble project, conducting unit testing, integration testing, UI testing, mutation testing using C#, WinAppDriver.",
+      footerLink: [
+        {
+          name: "GitHub Link",
+          url: "https://github.com/PreeGarg/Team2_Scrabble"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/PhysicalDB.png"),
+      projectName: "Physical Database Storage",
+      projectDesc: "Developed a comprehensive SQL database system, spanning from physical storage to the application layer, utilizing C++, BerkeleyDB, and SQLParser.",
+    },
+    {
+      image: require("./assets/images/DistributedSystems.jpg"),
+      projectName: "Distributed Components",
+      projectDesc: "Coded distributed features like Bully algorithm and Pub/Sub using sockets in Python.",
     }
   ],
   display: true // Set false to hide this section, defaults to true
