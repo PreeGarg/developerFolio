@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Preedhi Garg",
-  title: "Hi, I am Preedhi",
+  title: "Hi, I am Preedhi !",
   subTitle: 
-    "Result-driven graduate computer science student with full-stack software development experience seeking full-time roles. Proficient in agile processes, design, and test-driven development with a solid foundation in Math, Coding, and Logic"
+    "Result-driven graduate computer science student with full-stack software development experience seeking full-time role. Proficient in agile processes, design, and test-driven development with a solid foundation in Math, Coding, and Logic"
   ,
   resumeLink:
     "https://drive.google.com/file/d/1_jLtiXxd5e1NbsWo7VCBLf8h8f_SquuM/view?pli=1", // Set to empty to hide the button
