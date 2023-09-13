@@ -47,13 +47,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ A highly accomplished computer science professional with a stellar academic record, a diverse technical skillset, and a track record of optimizing software performance and efficiency in real-world settings"
-    ),
-    emoji("⚡ An adept software developer and technology enthusiast, known for transforming complex challenges into innovative solutions, improving system performance by 75%, and streamlining workflows for enhanced productivity."),
-    emoji(
-      "⚡ A results-driven computer scientist with a passion for excellence, combining top-tier education, extensive technical proficiencies, and a proven history of driving substantial improvements in software development and database optimization."
-    )
+    emoji("⚡ Technical Expertise"),
+    "A highly competitive computer science professional with a stellar academic record. Proficient in a wide range of programming languages, software development tools, and methodologies, demonstrating a strong foundation in computer science and engineering.",
+    emoji("⚡ Problem Solver"),
+    "Recognized for optimizing critical systems, reducing database latency by 80%, and improving platform performance by 75%, showcasing a strong aptitude for identifying and resolving complex technical challenges.",
+    emoji("⚡ Research and Innovation"),
+    "Authored research papers on topics like image compression, exhibiting a commitment to innovation and the ability to apply academic insights to practical, real-world problems."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
